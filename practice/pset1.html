@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Document</title>
+<link rel="stylesheet" href="style1.css"> 
+<style> 
+        #box{ 
+            background-color: blue; 
+        } 
+        .heading{ 
+            color:red; 
+        } 
+        button{ 
+            background-color: blue; 
+             
+        } 
+        #heading{ 
+            text-align:center; 
+            text-transform:uppercase; 
+        } 
+        *{ 
+            font-family: 'Times New Roman'; 
+        } 
+        #inner{ 
+            font-size:10px; 
+        } 
+        #outer{ 
+            font-size:25px; 
+        } 
+    </style> 
+     
+</head> 
+<body> 
+    <!--practice set 1--> 
+    <!-- 
+    create a simple div with an id "box". 
+     add some text content inside the div. 
+     set its background color blue. 
+    --> 
+     <div id="box"> 
+        <p>Lorem ipsum dolor sit amet.</p> 
+     </div> 
+     <!-- 
+     create 3 headings with h1,h2 & h3. 
+     give them all a class "heading" & set color of "heading" to red. 
+     --> 
+     <h1 class="heading">welcome</h1> 
+     <h2 class="heading">to </h2> 
+     <h3 class="heading">my world</h3> 
+     <!-- 
+     create a button & set its button color to: 
+     * green using css stylesheet 
+     * bue using <style> tag 
+     * pink using inline style 
+     --> 
+     <button style="background-color:pink;" ><a style="text-decoration:none;" 
+href="https:/google.com"><b>TOUCH ME</b></a></button> 
+    <!--practice set 2--> 
+    <!-- 
+    create a heading centered on the page with all of its  
+    text capitalized by default. 
+    --> 
+    <h1 id="heading">heading centered on the page</h1> 
+    <!--  
+    create one div inside another div.set id & text "outer" 
+    for the first one & "inner" for the second one.set the 
+     outer div text size to 25px & inner div text size to 10px.  
+    --> 
+    <div id="outer"> 
+        <p>outer div</p> 
+        <div id="inner"> 
+            <p>inner div</p> 
+        </div> 
+    </div> 
+</body> 
+</html> 
