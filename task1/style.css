@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f4f5f7;
+  color: #1c1c1e;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  flex: 1;
+  max-width: 414px; /* typical mobile width */
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.app-header {
+  background-color: #007aff;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.app-content {
+  padding: 16px;
+  flex: 1;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #555;
+  margin-bottom: 12px;
+}
+
+button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0051a3;
+}
+
+.app-footer {
+  border-top: 1px solid #ddd;
+  background-color: white;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: #007aff;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.tab.active {
+  color: #000;
+  font-weight: 600;
+}
